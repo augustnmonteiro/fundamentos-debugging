@@ -1,237 +1,223 @@
-# Welcome to Debugging Fundamentals
+# Bem-vindo ao Debugging Fundamentals
 
-This is the official repository of the "Debugging Fundamentals" course. Here you will find challenges to practice, as well as all the examples used during the classes, still with the errors so you can resolve them. The main project used in the course is also available without the bugs presented during the classes.
+Este é o repositório oficial do curso "Debugging Fundamentals". Aqui você encontrará os desafios para praticar, bem como todos os exemplos usados durante as aulas, ainda com os erros para que você possa resolvê-los. Também está disponível o projeto principal usado no curso, sem os bugs apresentados durante as aulas.
 
-Below are all the instructions to execute the codes on your machines and practice what was learned in our classes.
+Abaixo estão todas as instruções para executar os códigos em suas máquinas e praticar o que foi aprendido em nossas aulas.
 
-# Challenges
+# Desafios
 
-This repository contains debugging challenges to practice everything that was taught. Each challenge is implemented in a separate JavaScript file and can be executed in a web browser. Below are the instructions to execute these challenges.
+Este repositório contém desafios de debugging para praticar tudo o que foi ensinado. Cada desafio é implementado em um arquivo JavaScript separado e pode ser executado em um navegador da web. Abaixo estão as instruções para executar esses desafios.
 
-## How to run the challenges
+## Como executar os desafios
 
-Follow these steps to run the challenges on your local machine:
+Siga estas etapas para executar os desafios em sua máquina local:
 
-1. **Open the terminal and clone the repository:**
+1. **Abra o terminal e clone o repositório:**
 
 ```
-git clone https://github.com/seu-usuario/desafios-js-puro.git
+git clone https://github.com/augustnmonteiro/fundamentos-debugging.git
 ```
 
-2. **Navigate to the challenges directory in the repository:**
+2. **Navegue até o diretório dos desafios no repositório:**
 
 ```
 cd challanges
 ```
 
-3. **Run the challenges:**
 
-- **Option 1: Live Server (recommended):**
+3. **Execute os desafios:**
 
-  We recommend using Live Server to run the HTML files locally. If you have the Live Server extension installed, simply start using the extension in VSCode. This will automatically open your default browser with the HTML page of the challenge, updating it automatically whenever there are changes to the files.
+- **Opção 1: Live Server (recomendado):**
 
-- **Option 2: Open in the browser:**
+  Recomendamos o uso do Live Server para rodar os arquivos HTML localmente. Se você tiver a extensão Live Server instalada, basta iniciar o uso da extensão no VScode. Isso abrirá automaticamente o seu navegador padrão com a página HTML do desafio, atualizando-a automaticamente sempre que houver alterações nos arquivos.
 
-  Open the `index.html` file in your web browser. You will see a web page with a simple interface.
+- **Opção 2: Abrir no navegador:**
 
-## Running the challenges
+  Abra o arquivo `index.html` em seu navegador da web. Você verá uma página da web com uma interface simples.
 
-For each specific challenge, follow these steps:
+## Executando os desafios
+
+Para cada desafio específico, siga estas etapas:
 
 ### 1. Debugging with Logs
 
-- **Navigate to the challenge directory:**
+- **Navegue até o diretório do desafio:**
+ ```
+ cd debugging-with-logs
+ ```
+- **Execute o desafio com Live Server no arquivo** `index.html`
 
-    ```
-    cd debugging-with-logs
-    ```
-
-- **Run the challenge with Live Server on the** `index.html` **file**
-
-- **Fix the code bugs**
+- **Corrija os Bugs do código**
 
 ### 2. Debugging with VSCode
 
-- **Navigate to the challenge directory:**
-
-    ```
-    cd debugging-with-vscode
-    ```
-
-- **Install project dependencies:**
-    ```
-    npm install
-    ```
-
-- **Run the challenge:**
-
-    ```
-    npm start
-    ```
-
-- **Fix the code bugs**
+- **Navegue até o diretório do desafio:**
+ ```
+ cd debugging-with-vscode
+ ```
+- **Instale as dependências do projeto:**
+ ```
+ npm install
+ ```
+- **Execute o desafio:**
+ ```
+ npm start
+ ```
+- **Corrija os Bugs do código**
 
 ### 3. Reading Error Messages
 
-- **Navigate to the challenge directory:**
+- **Navegue até o diretório do desafio:**
+ ```
+ cd reading-error-messages
+ ```
 
-    ```
-    cd reading-error-messages
-    ```
-    
-    Inside this folder, there are various challenges of different errors, just enter the challenge folder you want to perform and:
+ Dentro dessa pasta existem vários desafios de erros diferentes, basta entrar na pasta do desafio que deseja realizar e:
 
-- **Run the challenge with Live Server on the** `index.html` **file**
+- **Executar o desafio com Live Server no arquivo** `index.html`
 
-- **Fix the code bugs**
+- **Corrija os Bugs do código**
 
 ### 4. Troubleshooting
 
-Before anything else, it is necessary to initialize the execution of the backend and frontend, below are the instructions.
+Antes de qualquer coisa, é necessário inicializar a execução do backend e do frontend, abaixo estão as instruções.
 
 #### BACKEND
 
-- **Navigate to the backend directory of the challenge:**
+- **Navegue até o diretório do backend do desafio:**
+ ```
+ cd troubleshooting/backend
+ ```
+- **Instale as dependências do projeto:**
+ ```
+ npm install
+ ```
+- **Execute o backend do desafio:**
+ ```
+ npm start
+ ```
 
-    ```
-    cd troubleshooting/backend
-    ```
+#### FRONTEND
 
-- **Install project dependencies:**
-    
+- **Navegue até o diretório do frontend do desafio:**
+ ```
+ cd troubleshooting/frontend
+ ```
+- **Execute o frontend do desafio com Live Server no arquivo** `index.html`
+
+- **Corrija os Bugs do código**
+
+# HANDS ON
+
+Estes são os exemplos usados durante nossas aulas, todos os exemplos estão com erros. Abaixo vou deixar as etapas de como executar cada exemplo para que possa corrigi-los.
+
+Navegue até o diretório `HANDS ON`
+
+ ```
+ cd hands-on
+ ```
+
+
+### 1. CHROME DEVTOOLS
+
+- **Navegue até o diretório do desafio:**
+    ```
+    cd hands-on/chrome-devtools
+    ```
+- **Execute o desafio com Live Server no arquivo** `index.html`
+
+- **Corrija os Bugs do código**
+
+### 2. LOGS
+
+- **Navegue até o diretório do desafio:**
+    ```
+    cd hands-on/logs
+    ```
+- **Execute o desafio com Live Server no arquivo** `index.html`
+
+- **Corrija os Bugs do código**
+
+### 3. VSCODE
+
+- **Navegue até o diretório do desafio:**
+    ```
+    cd hands-on/vscode
+    ```
+- **Instale as dependências do projeto:**
     ```
     npm install
     ```
+- **Execute o backend do desafio:**
+    ```
+    npm start
+    ```
+- **Corrija os Bugs do código**
 
-- **Run the challenge backend:**
-    
+### 4. TROUBLESHOOTING
+
+Antes de qualquer coisa, é necessário inicializar a execução do backend e do frontend, abaixo estão as instruções.
+
+#### BACKEND
+
+- **Navegue até o diretório do backend do desafio:**
+    ```
+    cd hands-on/troubleshooting/backend
+    ```
+- **Instale as dependências do projeto:**
+    ```
+    npm install
+    ```
+- **Execute o backend do desafio:**
     ```
     npm start
     ```
 
 #### FRONTEND
 
-- **Navigate to the frontend directory of the challenge:**
-
+- **Navegue até o diretório do frontend do desafio:**
     ```
-    cd troubleshooting/frontend
+    cd hands-on/troubleshooting/frontend
     ```
+- **Execute o frontend do desafio com Live Server no arquivo** `index.html`
 
-- **Run the challenge frontend with Live Server on the** `index.html` **file**
+- **Corrija os Bugs**
 
-- **Fix the code bugs**
+# PROJETO PRINCIPAL - MATH GAME
 
-# HANDS ON
-
-These are the examples used during our classes, all examples are with errors. Below I will leave the steps on how to execute each example so you can fix them.
-
-Navigate to the directory `HANDS ON`
-
-```
-cd hands-on
-```
-
-### 1. CHROME DEVTOOLS
-
-- **Navigate to the challenge directory:**
-   ```
-   cd hands-on/chrome-devtools
-   ```
-- **Run the challenge with Live Server on the** `index.html` **file**
-
-- **Fix the code bugs**
-
-### 2. LOGS
-
-- **Navigate to the challenge directory:**
-   ```
-   cd hands-on/logs
-   ```
-- **Run the challenge with Live Server on the** `index.html` **file**
-
-- **Fix the code bugs**
-
-### 3. VSCODE
-
-- **Navigate to the challenge directory:**
-   ```
-   cd hands-on/vscode
-   ```
-- **Install project dependencies:**
-   ```
-   npm install
-   ```
-- **Run the backend of the challenge:**
-   ```
-   npm start
-   ```
-- **Fix the code bugs**
-
-### 4. TROUBLESHOOTING
-
-Before anything else, it is necessary to initialize the execution of the backend and frontend, below are the instructions.
-
-#### BACKEND
-
-- **Navigate to the backend directory of the challenge:**
-   ```
-   cd hands-on/troubleshooting/backend
-   ```
-- **Install project dependencies:**
-   ```
-   npm install
-   ```
-- **Run the challenge backend:**
-   ```
-   npm start
-   ```
-
-#### FRONTEND
-
-- **Navigate to the frontend directory of the challenge:**
-   ```
-   cd hands-on/troubleshooting/frontend
-   ```
-- **Run the challenge frontend with Live Server on the** `index.html` **file**
-
-- **Fix the code bugs**
-
-# MAIN PROJECT - MATH GAME
-
-This is the Project used without bugs and this is the link for you to test:
+Esse é o Projeto usado sem bugs e este é o link para que possam testar:
 
 [MATH GAME](URL_do_Link)
 
-### Instructions to execute from source code:
+### Instruções para executar a partir do codigo fonte:
 
 #### BACKEND
 
-- **Navigate to the backend directory of the challenge:**
-   ```
-   cd hands-on/troubleshooting/backend
-   ```
-- **Install project dependencies:**
-   ```
-   npm install
-   ```
-- **Run the challenge backend:**
-   ```
-   npm start
-   ```
+- **Navegue até o diretório do backend do desafio:**
+    ```
+    cd hands-on/troubleshooting/backend
+    ```
+- **Instale as dependências do projeto:**
+    ```
+    npm install
+    ```
+- **Execute o backend do desafio:**
+    ```
+    npm start
+    ```
 
 #### FRONTEND
 
-- **Navigate to the frontend directory of the challenge:**
-   ```
-   cd hands-on/troubleshooting/frontend
-   ```
-- **Run the challenge frontend with Live Server on the** `index.html` **file**
+- **Navegue até o diretório do frontend do desafio:**
+    ```
+    cd hands-on/troubleshooting/frontend
+    ```
+- **Execute o frontend do desafio com Live Server no arquivo** `index.html`
 
-## FINAL REMARKS
+## CONSIDERAÇÕES FINAIS
 
-#### We hope this repository has been helpful for you to practice and improve your debugging skills. Don't forget to explore the challenges and examples provided, and feel free to contribute with new content or improvement suggestions.
+#### Esperamos que este repositório tenha sido útil para você praticar e aprimorar suas habilidades de debugging. Não se esqueça de explorar os desafios e exemplos fornecidos, e sinta-se à vontade para contribuir com novos conteúdos ou sugestões de melhorias.
 
-#### Always remember the importance of the debugging process in software development and the patience and persistence required to identify and fix bugs. Keep practicing and never stop learning!
+#### Lembre-se sempre da importância do processo de debugging no desenvolvimento de software e da paciência e persistência necessárias para identificar e corrigir bugs. Continue praticando e nunca pare de aprender!
 
-#### If you have any questions or feedback, feel free to [contact us](Contact_URL). Thank you for using this repository and good luck on your debugging journey!
-
+#### Se você tiver alguma dúvida ou feedback, não hesite em entrar em contato conosco. Obrigado por usar este repositório e boa sorte em sua jornada de debugging!
